@@ -15,7 +15,8 @@ public func anagram(word: String)->[String] {
     }
 }
 
-let dictionary = ["sort", "sinks", "car"]
+let dictionary = ["sort", "sinks", "car", "enlist", "inlets", "listen", "silent"
+]
 
 func searchDictiuonary(charCount: Int) -> [String] {
     dictionary.filter { word in

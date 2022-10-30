@@ -20,4 +20,7 @@ final class anagramsTests: XCTestCase {
     func testsinksShouldReturnSkins() {
         XCTAssertEqual(["sinks"], anagram(word: "skins"))
     }
+    func testEnlistShouldHave4Anagrams() {
+        XCTAssertEqual(3, anagram(word: "enlist").count)
+    }
 }
