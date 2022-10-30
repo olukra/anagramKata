@@ -11,6 +11,7 @@
 		6C1F79FA290EEE78003E0C2D /* anagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F79F9290EEE78003E0C2D /* anagramsTests.swift */; };
 		6C1F79FB290EEE78003E0C2D /* anagrams.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1F79EF290EEE78003E0C2D /* anagrams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C1F7A05290F0062003E0C2D /* anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7A04290F0062003E0C2D /* anagram.swift */; };
+		6C1F7A07290F00DC003E0C2D /* searchDictiuonaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7A06290F00DC003E0C2D /* searchDictiuonaryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6C1F79F4290EEE78003E0C2D /* anagramsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anagramsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1F79F9290EEE78003E0C2D /* anagramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagramsTests.swift; sourceTree = "<group>"; };
 		6C1F7A04290F0062003E0C2D /* anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagram.swift; sourceTree = "<group>"; };
+		6C1F7A06290F00DC003E0C2D /* searchDictiuonaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchDictiuonaryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				6C1F79F9290EEE78003E0C2D /* anagramsTests.swift */,
+				6C1F7A06290F00DC003E0C2D /* searchDictiuonaryTests.swift */,
 			);
 			path = anagramsTests;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1F79FA290EEE78003E0C2D /* anagramsTests.swift in Sources */,
+				6C1F7A07290F00DC003E0C2D /* searchDictiuonaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
