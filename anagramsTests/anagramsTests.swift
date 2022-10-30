@@ -9,7 +9,10 @@ import XCTest
 @testable import anagrams
 
 func anagram(word: String)->[String] {
-    ["sort"]
+    if word != "rots" {
+        return []
+    }
+    return ["sort"]
 }
 
 final class anagramsTests: XCTestCase {
@@ -26,6 +29,7 @@ final class anagramsTests: XCTestCase {
         XCTAssertEqual(["sort"], anagram(word: "rots"))
     }
     
-
-
+    func testNoSolution() {
+        XCTAssertEqual([], anagram(word: "car"))
+    }
 }
