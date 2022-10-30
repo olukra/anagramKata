@@ -23,6 +23,6 @@ func searchDictiuonary(charCount: Int) -> [String] {
         word.count == charCount
     }
 }
-func isAnagram(leftString: String, rightString: String)->Bool{
-    true
+func isAnagram(leftString: String, rightString: String) -> Bool {
+    leftString.sorted() == rightString.sorted()
 }
