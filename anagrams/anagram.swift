@@ -8,12 +8,11 @@
 import Foundation
 
 public func anagram(word: String)->[String] {
-    if word == "rots" {
-        return ["sort"]
-    }else if word == "skins" {
-        return ["sinks"]
+    searchDictiuonary(charCount: word.count).filter { candidate in
+        isAnagram(leftString: word, rightString: candidate)
+    }.filter { solution in
+        solution != word
     }
-    return []
 }
 
 let dictionary = ["sort", "sinks", "car"]
