@@ -6,16 +6,7 @@
 //
 
 import XCTest
-@testable import anagrams
-
-func anagram(word: String)->[String] {
-    if word == "rots" {
-        return ["sort"]
-    }else if word == "skins" {
-        return ["sinks"]
-    }
-    return []
-}
+import anagrams
 
 final class anagramsTests: XCTestCase {
 

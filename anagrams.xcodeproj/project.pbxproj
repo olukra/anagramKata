@@ -10,6 +10,7 @@
 		6C1F79F5290EEE78003E0C2D /* anagrams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C1F79EC290EEE78003E0C2D /* anagrams.framework */; };
 		6C1F79FA290EEE78003E0C2D /* anagramsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F79F9290EEE78003E0C2D /* anagramsTests.swift */; };
 		6C1F79FB290EEE78003E0C2D /* anagrams.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1F79EF290EEE78003E0C2D /* anagrams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C1F7A05290F0062003E0C2D /* anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F7A04290F0062003E0C2D /* anagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		6C1F79EF290EEE78003E0C2D /* anagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anagrams.h; sourceTree = "<group>"; };
 		6C1F79F4290EEE78003E0C2D /* anagramsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anagramsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1F79F9290EEE78003E0C2D /* anagramsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagramsTests.swift; sourceTree = "<group>"; };
+		6C1F7A04290F0062003E0C2D /* anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				6C1F79EF290EEE78003E0C2D /* anagrams.h */,
+				6C1F7A04290F0062003E0C2D /* anagram.swift */,
 			);
 			path = anagrams;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				TargetAttributes = {
 					6C1F79EB290EEE78003E0C2D = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 					6C1F79F3290EEE78003E0C2D = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -191,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1F7A05290F0062003E0C2D /* anagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +340,7 @@
 		6C1F79FF290EEE78003E0C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -355,6 +361,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -362,6 +369,7 @@
 		6C1F7A00290EEE78003E0C2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -389,6 +397,7 @@
 		6C1F7A02290EEE78003E0C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -403,6 +412,7 @@
 		6C1F7A03290EEE78003E0C2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
