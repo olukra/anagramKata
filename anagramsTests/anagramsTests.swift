@@ -9,10 +9,10 @@ import XCTest
 @testable import anagrams
 
 func anagram(word: String)->[String] {
-    if word != "rots" {
-        return []
+    if word == "rots" {
+        return ["sort"]
     }
-    return ["sort"]
+    return []
 }
 
 final class anagramsTests: XCTestCase {
