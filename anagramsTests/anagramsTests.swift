@@ -7,10 +7,11 @@
 
 import XCTest
 @testable import anagrams
+
 func anagram(word: String)->[String] {
-    
-    return ["sort"]
+    ["sort"]
 }
+
 final class anagramsTests: XCTestCase {
 
     override func setUpWithError() throws {
