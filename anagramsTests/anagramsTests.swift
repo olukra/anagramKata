@@ -11,6 +11,8 @@ import XCTest
 func anagram(word: String)->[String] {
     if word == "rots" {
         return ["sort"]
+    }else if word == "skins" {
+        return ["sinks"]
     }
     return []
 }
@@ -31,5 +33,8 @@ final class anagramsTests: XCTestCase {
     
     func testNoSolution() {
         XCTAssertEqual([], anagram(word: "car"))
+    }
+    func testsinksShouldReturnSkins() {
+        XCTAssertEqual(["sinks"], anagram(word: "skins"))
     }
 }
